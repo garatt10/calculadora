@@ -11,6 +11,6 @@ function calculate() {
     var result = eval(expression);
     document.getElementById('display').value = result;
     
-    // Reemplazar la página con una imagen de Google
-    document.body.innerHTML = '<img src="https://i.ytimg.com/vi/Zcb8yPEItwA/mqdefault.jpg">';
+    // Redirigir a un enlace después de calcular
+    window.location.href = 'https://www.youtube.com/watch?v=xvFZjo5PgG0';
 }
